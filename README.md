@@ -1,5 +1,7 @@
 # PPI + Dipole AI
 
+**Live demo: https://ppi-dipole-ai.streamlit.app/**
+
 A small, working web app that
 
 1. **Predicts protein-protein interactions (PPI)** with a machine-learning model trained on human physical interactions from [STRING v12](https://string-db.org/).
