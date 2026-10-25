@@ -1,0 +1,23 @@
+{
+  "data": "STRING v12.0 human physical links, score >= 900",
+  "n_pairs": 40000,
+  "n_proteins": 6902,
+  "n_features": 1107,
+  "model": "HistGradientBoostingClassifier",
+  "random_pair_split": {
+    "n": 8000,
+    "accuracy": 0.6886,
+    "precision": 0.6986,
+    "recall": 0.6635,
+    "f1": 0.6806,
+    "roc_auc": 0.7689
+  },
+  "unseen_protein_split": {
+    "n": 3534,
+    "accuracy": 0.6488,
+    "precision": 0.6774,
+    "recall": 0.5722,
+    "f1": 0.6204,
+    "roc_auc": 0.7067
+  }
+}
