@@ -141,4 +141,4 @@ if st.button("Analyze", type="primary"):
             d3.metric("Net charge", f"{res.net_charge:+.1f} e")
             vx, vy, vz = res.vector_debye
             st.caption(f"Vector (D): ({vx:,.0f}, {vy:,.0f}, {vz:,.0f}) | {res.n_charged_sites} charged sites")
-            st.plotly_chart(dipole_figure(prot, res, ph), use_container_width=True)
+            st.plotly_chart(dipole_figure(prot, res, ph), width="stretch")

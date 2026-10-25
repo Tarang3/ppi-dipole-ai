@@ -24,6 +24,7 @@ python -m ppi_ai.train
 Run the tests:
 
 ```bash
+pip install pytest
 pytest
 ```
 
